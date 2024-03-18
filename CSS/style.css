@@ -1,0 +1,61 @@
+/********************COMMON******************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+/********************DEBUG*********************/
+
+.left-nav {
+    background-color: black;
+}
+
+.right-nav {
+    background-color: red;
+}
+
+.logo {
+    height: 100%;
+    background-color: green;
+}
+
+.answers {
+    height: 100%;
+    background-color: gray;
+}
+
+.help {
+    background-color: aqua;
+    height: 100%;
+}
+/*********************HEADER*******************/
+.nav {
+    position: fixed;
+    width: 100%;
+}
+.col-nav {
+    width: 50%;
+    height: 3rem;
+}
+
+.right-nav {
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 10%;
+}
+
+.answers {
+    width: 50%;
+}
+
+.help {
+    width: 60%;
+}
