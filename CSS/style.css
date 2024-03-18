@@ -19,12 +19,24 @@ a {
     margin-bottom: 2rem;
 }
 
+.margin-b4 {
+    margin-bottom: 4rem;
+}
+
+.margin-l1 {
+    margin-left: 1rem;
+}
+
 .txt-center {
     text-align: center;
 }
 
 .pd-1 {
     padding: 1rem;
+}
+
+.pd-05 {
+    padding: 0.5rem;
 }
 
 hr {
@@ -43,6 +55,16 @@ hr {
 
 .help {
     height: 100%;
+}
+
+.t-1 {
+    background-color: red;
+}
+.t-2 {
+    background-color: burlywood;
+}
+.t-3 {
+    background-color: #0061ff;
 }
 /*********************HEADER*******************/
 .nav {
@@ -139,4 +161,56 @@ hr {
     background-color: #0061ff;
     width: 100%;
     color: white;
+}
+
+.left-col-bot {
+    flex-direction: column;
+    width: 60%;
+}
+
+.vertical-col {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.vertical-btn {
+    height: 3rem;
+}
+
+.column-bottom {
+    outline: 1px solid black;
+}
+
+/* END COLUMNS/START IMGS */
+
+.img-caption-container {
+    height: 400px;
+}
+
+.img {
+    width: 70%;
+    height: 100%;
+    background-color: #0061ff;
+}
+
+.caption {
+    width: 30%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.col-img-cap {
+    height: 300px;
+    width: calc(100% / 3 - 1rem);
+}
+
+.col-img-container {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.clie {
+    width: 33.3%;
+    height: 400px;
+    outline: 1px solid black;
 }
