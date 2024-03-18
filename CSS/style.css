@@ -66,6 +66,10 @@ hr {
 .t-3 {
     background-color: #0061ff;
 }
+
+.t-4 {
+    background-color: aquamarine;
+}
 /*********************HEADER*******************/
 .nav {
     position: fixed;
@@ -134,7 +138,6 @@ hr {
 
 .boxed-container {
     width: 50%;
-    height: 1200px;
     margin: 4rem auto 0 auto;
     padding: 1rem;
 }
@@ -213,4 +216,32 @@ hr {
     width: 33.3%;
     height: 400px;
     outline: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.marca {
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+}
+
+.center-col-main {
+    background-color: lightgray;
+}
+
+.under-banner {
+    height: 15rem;
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.under-under-banner {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: #222;
 }
