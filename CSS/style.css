@@ -15,8 +15,16 @@ a {
     text-decoration: none;
 }
 
+.margin-t {
+    margin-top: 2rem;
+}
+
 .margin-b {
     margin-bottom: 2rem;
+}
+
+.margin-b1 {
+    margin-bottom: 1rem;
 }
 
 .margin-b4 {
@@ -25,6 +33,10 @@ a {
 
 .margin-l1 {
     margin-left: 1rem;
+}
+
+.gap1 {
+    gap: 1rem;
 }
 
 .txt-center {
@@ -41,6 +53,10 @@ a {
 
 hr {
     width: 2rem;
+}
+
+ul {
+    list-style: none;
 }
 
 /********************DEBUG*********************/
@@ -84,8 +100,8 @@ hr {
 }
 
 .nav-links {
-    padding-top: 1rem;
     justify-content: space-around;
+    padding: 1.5rem 1.5rem;
 }
 
 .links {
@@ -95,7 +111,7 @@ hr {
 
 .col-nav {
     width: 50%;
-    height: 3rem;
+    min-height: 3rem;
 }
 
 .right-nav {
@@ -116,19 +132,37 @@ hr {
 
 .hero {
     background-color: #b4d0e7;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .boxed-hero {
     width: 60%;
-    height: 30rem;
+    min-height: 30rem;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
 }
 
+.hero-col-left {
+    width: 30%;
+    flex-direction: column;
+}
+
+.btn-hero {
+    width: 75%;
+}
+
+.fa-arrow-down {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.hero-col-right {
+    width: 55%;
+}
+
 .title {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 4rem;
     letter-spacing: 2px;
     font-weight: 600;
@@ -160,15 +194,22 @@ hr {
 }
 
 .button {
-    display: inline-block;
     background-color: #0061ff;
-    width: 100%;
     color: white;
+}
+
+.btn {
+    background-color: #0061ff;
+    padding: 0.1rem 0.5rem;
+}
+
+.fa-check {
+    color: #0061ff;
 }
 
 .left-col-bot {
     flex-direction: column;
-    width: 60%;
+    width: 70%;
 }
 
 .vertical-col {
@@ -191,15 +232,19 @@ hr {
 }
 
 .img {
-    width: 70%;
+    width: 60%;
     height: 100%;
     background-color: #0061ff;
 }
 
 .caption {
-    width: 30%;
+    width: 40%;
     height: 100%;
-    background-color: blanchedalmond;
+}
+
+.btn-partner {
+    border: 1px solid #222;
+    color: #222;
 }
 
 .col-img-cap {
@@ -211,6 +256,8 @@ hr {
     flex-wrap: wrap;
     gap: 1rem;
 }
+
+/***************************FOOTER************************/
 
 .clie {
     width: 33.3%;
@@ -234,6 +281,21 @@ hr {
     background-color: #b4d0e7;
 }
 
+.btn-banner {
+    background-color: white;
+    color: #222;
+    height: 2rem;
+}
+
+.banner {
+    justify-content: space-between;
+}
+
+.banner-title {
+    color: crimson;
+    width: 60%;
+}
+
 .under-under-banner {
     height: 500px;
     width: 100%;
@@ -241,7 +303,28 @@ hr {
 }
 
 .footer {
-    height: 250px;
+    min-height: 250px;
     width: 100%;
     background-color: #222;
 }
+
+.boxed-container-foot {
+    width: 70%;
+    margin: 4rem auto 0 auto;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.ul-foot {
+    color: white;
+    line-height: 2rem;
+}
+
+.foot-links {
+    color: white;
+}
+
+.ul-foot-border {
+    border-bottom: 1px solid white;
+}
+
