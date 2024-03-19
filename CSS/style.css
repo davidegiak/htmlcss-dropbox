@@ -59,11 +59,11 @@ ul {
     list-style: none;
 }
 
-/********************DEBUG*********************/
-
-.logo {
-    height: 100%;
+.img-w {
+    width: 100%;
 }
+
+/********************DEBUG*********************/
 
 .answers {
     height: 100%;
@@ -71,16 +71,6 @@ ul {
 
 .help {
     height: 100%;
-}
-
-.t-1 {
-    background-color: red;
-}
-.t-2 {
-    background-color: burlywood;
-}
-.t-3 {
-    background-color: #0061ff;
 }
 
 .t-4 {
@@ -119,7 +109,8 @@ ul {
 }
 
 .logo {
-    width: 10%;
+    width: 20%;
+    padding: 1.3rem;
 }
 
 .answers {
@@ -132,7 +123,11 @@ ul {
 
 .hero {
     background-color: #b4d0e7;
-    min-height: 80vh;
+}
+
+.img-hero {
+    width: 100%;
+    transform: translateY(4rem);
 }
 
 .boxed-hero {
@@ -228,13 +223,11 @@ ul {
 /* END COLUMNS/START IMGS */
 
 .img-caption-container {
-    height: 400px;
 }
 
 .img {
     width: 60%;
     height: 100%;
-    background-color: #0061ff;
 }
 
 .caption {
@@ -248,13 +241,17 @@ ul {
 }
 
 .col-img-cap {
-    height: 300px;
+    min-height: 400px;
     width: calc(100% / 3 - 1rem);
 }
 
 .col-img-container {
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+.caption-main {
+    height: calc(100% / 2);
 }
 
 /***************************FOOTER************************/
@@ -269,6 +266,49 @@ ul {
 .marca {
     height: calc(100% / 2);
     width: calc(100% / 2);
+    justify-content: center;
+    align-items: center;
+}
+
+.img-marca {
+    width: 70%;
+    filter: invert(1);
+}
+
+.designit {
+    width: 20rem;
+}
+
+.marca-1 {
+    background-color: #a2d39b;
+}
+
+.marca-2 {
+    background-color: #61082b;
+}
+
+.marca-3{
+    background-color: #0093ce;
+}
+
+.marca-4{
+    background-color: #ff1c1c;
+}
+
+.marca-5{
+    background-color: #d5001f;
+}
+
+.marca-6{
+    background-color: #b4d0e7;
+}
+
+.marca-7{
+    background-color: #0d2481;
+}
+
+.marca-8 {
+    background-color: #ffd830;
 }
 
 .center-col-main {
