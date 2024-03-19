@@ -51,7 +51,7 @@ a {
     padding: 0.5rem;
 }
 
-hr {
+.short {
     width: 2rem;
 }
 
@@ -61,20 +61,6 @@ ul {
 
 .img-w {
     width: 100%;
-}
-
-/********************DEBUG*********************/
-
-.answers {
-    height: 100%;
-}
-
-.help {
-    height: 100%;
-}
-
-.t-4 {
-    background-color: aquamarine;
 }
 /*********************HEADER*******************/
 .nav {
@@ -342,8 +328,28 @@ ul {
     background-color: white;
 }
 
+.fa-chevron-down {
+    margin-left: 24rem;
+}
+
+.question {
+    line-height: 5rem;
+}
+
+.question-hover {
+    display: none;
+}
+
+.question:hover + .question-hover{
+    display: block;
+}
+
+.question:hover + .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
 .footer {
-    min-height: 250px;
+    padding-bottom: 4rem;
     width: 100%;
     background-color: #222;
 }
@@ -368,3 +374,17 @@ ul {
     border-bottom: 1px solid white;
 }
 
+#language {
+    color: white;
+    margin-right: 1rem;
+}
+
+.fa-earth-americas {
+    color: white;
+}
+
+.language {
+    margin-left: 19rem;
+    border-bottom: 1px solid white;
+    width: 10.5rem;
+}
