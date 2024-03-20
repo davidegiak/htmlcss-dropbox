@@ -190,10 +190,32 @@ ul {
     color: white;
 }
 
+.btn-link {
+    color: white;
+    text-shadow:0 0 10px yellow;
+}
+
+.btn-link:hover {
+    color: yellow;
+    text-shadow:0 0 10px yellow;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px yellow;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px yellow;
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
+}
+
 .btn {
     background-color: #0061ff;
     padding: 0.1rem 0.5rem;
 }
+
+
 
 .fa-check {
     color: #0061ff;
@@ -235,6 +257,11 @@ ul {
 .btn-partner {
     border: 1px solid #222;
     color: #222;
+}
+
+.btn-partner:hover {
+    box-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px black;
 }
 
 .col-img-cap {
