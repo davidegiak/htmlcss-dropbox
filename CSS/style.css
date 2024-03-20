@@ -67,6 +67,7 @@ ul {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 9999;
 }
 
 .nav-container {
@@ -83,6 +84,10 @@ ul {
 .links {
     color: black;
     opacity: 0.5;
+}
+
+.links:hover {
+    border-bottom: 1px solid black;
 }
 
 .col-nav {
@@ -113,7 +118,7 @@ ul {
 
 .img-hero {
     width: 100%;
-    transform: translateY(4rem);
+    transform: translateY(2.3rem);
 }
 
 .boxed-hero {
@@ -136,10 +141,12 @@ ul {
 .fa-arrow-down {
     font-size: 5rem;
     font-weight: 800;
+    color: black;
+    width: fit-content;
 }
 
 .hero-col-right {
-    width: 55%;
+    width: 60%;
 }
 
 .title {
@@ -155,6 +162,10 @@ ul {
     width: 50%;
     margin: 4rem auto 0 auto;
     padding: 1rem;
+}
+
+.label {
+    margin-right: 1rem;
 }
 
 .columns {
@@ -328,7 +339,7 @@ ul {
     background-color: white;
 }
 
-.fa-chevron-down {
+.qa {
     margin-left: 24rem;
 }
 
@@ -344,8 +355,8 @@ ul {
     display: block;
 }
 
-.question:hover + .fa-chevron-down {
-    transform: rotate(180deg);
+.question:hover .fa-chevron-down {
+    transform: rotate(0.5turn);
 }
 
 .footer {
@@ -387,4 +398,6 @@ ul {
     margin-left: 19rem;
     border-bottom: 1px solid white;
     width: 10.5rem;
+    line-height: 3rem;
+    color: white;
 }
